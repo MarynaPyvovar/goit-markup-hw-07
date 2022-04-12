@@ -299,6 +299,7 @@ border-radius: 2px;
   text-transform: uppercase;
 }
 
+
 /* =====наша команда===== */
 
 .employees {
@@ -364,7 +365,7 @@ border-radius: 2px;
   display: flex;
   justify-content: space-between;
 }
-.clients .client-icon {
+.clients__icon {
   width: 170px;
   height: 92px;
   padding: 16px 32px;
@@ -373,12 +374,15 @@ border-radius: 2px;
   fill: #afb1b8;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.clients .client-icon:hover,
-.clients .client-icon:focus {
+.clients__icon:hover,
+.clients__icon:focus {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
+
+
 /* =====footer===== */
+
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -398,7 +402,6 @@ border-radius: 2px;
 .logo--light {
   color: var(--white-color);
 }
-
 
 .address__link {
   display: block;
@@ -501,6 +504,7 @@ border-radius: 2px;
 .subscribe__icon-send {
   fill: var(--white-color);
 }
+
 
 /* =======Backdrop+Modal */
 
