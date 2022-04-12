@@ -301,26 +301,26 @@ border-radius: 2px;
 
 /* =====наша команда===== */
 
-.team {
+.employees {
   background-color: var(--background-btn-p);
 }
-.member-list {
+.employees__list {
   display: flex;
 }
-.member-list .member-card + .member-card {
+.employees__card + .employees__card {
   margin-left: 30px;
 }
-.member-card {
+.employees__card {
   width: 270px;
   background-color: var(--white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.member-description {
+.employees__description {
   padding: 30px 32px;
 }
-.member {
+.employees__name {
   margin-top: 0;
   margin-bottom: 10px;
   color: var(--title-color);
@@ -330,7 +330,7 @@ border-radius: 2px;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.member-prof {
+.employees__prof {
   margin-top: 0;
   margin-bottom: 16px;
   font-size: 16px;
@@ -339,11 +339,11 @@ border-radius: 2px;
   letter-spacing: 0.03em;
 }
 
-.social {
+.employees__social {
   display: flex;
   justify-content: space-between;
 }
-.social .icon {
+.employees__icon {
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -351,12 +351,15 @@ border-radius: 2px;
   fill: #afb1b8;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social .icon:hover,
-.social .icon:focus {
+.employees__icon:hover,
+.employees__icon:focus {
   fill: var(--white-color);
   background-color: var(--accent-color);
 }
+
+
 /* =====постоянные клиенты====== */
+
 .clients {
   display: flex;
   justify-content: space-between;
