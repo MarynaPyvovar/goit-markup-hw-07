@@ -1,4 +1,5 @@
 /* =====main styles===== */
+
 html {
   box-sizing: border-box;
 }
@@ -51,7 +52,9 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
 /* =====logo===== */
+
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -65,7 +68,9 @@ body {
   color: var(--logo-color);
 }
 
+
 /* =====header===== */
+
 .header {
   border-bottom: 1px solid #ececec;
 }
@@ -141,7 +146,10 @@ border-radius: 2px;
   margin-right: 10px;
   fill: currentColor;
 }
+
+
 /* =====hero===== */
+
 .hero {
   max-width: 1600px;
   height: 600px;
@@ -157,7 +165,7 @@ border-radius: 2px;
   padding-top: 200px;
   padding-bottom: 200px;
 }
-.hero-title {
+.hero__title {
   margin-top: 0;
   margin-bottom: 30px;
   margin-left: auto;
@@ -207,14 +215,16 @@ border-radius: 2px;
 
 
 /* =====наши преимущества===== */
-.section.benefits {
+
+.benefits {
   padding-bottom: 0;
 }
 
-.benefits-list {
+.benefits__list {
   display: flex;
 }
-.benefit-icons {
+
+.benefits__icon-wrapper {
   width: 270px;
   height: 120px;
   padding: 25px 100px;
@@ -222,10 +232,11 @@ border-radius: 2px;
   background-color: var(--background-btn-p);
 }
 
-.benefits-list .item + .item {
+.benefits__item + .benefits__item {
   margin-left: 30px;
 }
-.benefits-list .title {
+
+.benefits__title {
   margin-top: 0;
   margin-bottom: 10px;
   color: var(--title-color);
@@ -235,7 +246,8 @@ border-radius: 2px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.benefit {
+
+.benefits__text {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 14px;
@@ -243,8 +255,10 @@ border-radius: 2px;
   letter-spacing: 0.03em;
 }
 
+
 /* =====чем мы занимаемся===== */
-.section-title {
+
+.section__title {
   margin-top: 0;
   margin-bottom: 50px;
   color: var(--title-color);
