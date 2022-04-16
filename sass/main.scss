@@ -7,10 +7,17 @@
 @import './components/logo';
 @import './components/button';
 @import './components/social-list';
-@import '';
-@import '';
-@import '';
-@import '';
+@import './components/main-title';
+@import './components/section-title';
+@import './components/backdrop';
+@import './components/modal-window';
+@import './components/form';
 
 @import './layout/page-header';
-@import '';
+@import './layout/hero';
+@import './layout/benefits-section';
+@import './layout/services-section';
+@import './layout/employees-section';
+@import './layout/clients-section';
+@import './layout/page-footer';
+@import './layout/portfolio';
