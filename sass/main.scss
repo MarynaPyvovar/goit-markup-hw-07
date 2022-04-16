@@ -4,6 +4,7 @@
 @import './base/common';
 @import './base/container';
 
+@import './components/page-header';
 @import './components/logo';
 @import './components/button';
 @import './components/social-list';
@@ -12,12 +13,11 @@
 @import './components/backdrop';
 @import './components/modal-window';
 @import './components/form';
+@import './components/page-footer';
 
-@import './layout/page-header';
 @import './layout/hero';
 @import './layout/benefits-section';
 @import './layout/services-section';
 @import './layout/employees-section';
 @import './layout/clients-section';
-@import './layout/page-footer';
 @import './layout/portfolio';
