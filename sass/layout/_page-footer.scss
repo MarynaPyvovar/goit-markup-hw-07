@@ -26,15 +26,15 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
-}
-
-.address__link:last-child {
-    margin-bottom: 0;
-}
-
-.address__link:hover,
-.address__link:focus {
-    color: var(--accent-color);
+    
+    &:last-child {
+        margin-bottom: 0;
+    }
+    
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
 }
 
 .address__office {
@@ -55,11 +55,6 @@
     letter-spacing: 0.03em;
     margin-top: 0;
     margin-bottom: 20px;
-}
-
-.social-list__icon--theme-dark {
-    fill: var(--white-color);
-    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .subscribe__title {
@@ -88,14 +83,14 @@
     color: var(--white-color);
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
-}
-
-.subscribe__input::placeholder {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    
+    &::placeholder {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+    }
 }
 
 .subscribe__button {

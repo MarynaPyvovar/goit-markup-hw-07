@@ -1,9 +1,9 @@
 .services {
     display: flex;
-}
-
-.services__item+.services__item {
-    margin-left: 30px;
+    
+    &__item+&__item {
+        margin-left: 30px;
+    }
 }
 
 .services__image {
