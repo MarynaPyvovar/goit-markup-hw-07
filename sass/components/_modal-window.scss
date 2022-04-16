@@ -26,11 +26,11 @@
 
 .modal__close-svg {
     fill: black;
-}
-
-.modal__button-close:hover .modal__close-svg,
-.modal__button-close:focus .modal__close-svg {
-    fill: var(--accent-color);
+    
+    .modal__button-close:hover &,
+    .modal__button-close:focus & {
+        fill: var(--accent-color);
+    }
 }
 
 .modal__title {

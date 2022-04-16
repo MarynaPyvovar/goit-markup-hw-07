@@ -6,4 +6,11 @@
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--accent-color);
+    
+    &--light {
+        color: var(--white-color);
+    }
+    &--dark {
+        color: var(--logo-color);
+    }
 }
